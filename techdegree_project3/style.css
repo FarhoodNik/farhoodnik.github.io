@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Merriweather', serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    border: 0;
+}
+form{
+    max-width: 100%;
+}
+.head{
+    background-color: rgb(83, 75, 75);
+    color:white;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+
+}
+p{
+    text-align: center;
+    padding: 0 5% 2%;
+}
+.contact{
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+}
+.zip{
+    max-width: 50%;
+}
+.zip1{
+    margin-bottom: 5%;
+}
+
+
+#border { 
+    height: 7px; 
+    border-top: 3px solid rgb(0, 0, 0); 
+    border-bottom: 1px solid rgb(0, 0, 0); 
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.input{
+    background-color: rgb(231, 231, 231);
+    padding: 20px 10px;
+    border-radius: 5%;
+    border: none;
+    
+}
+#option{
+    color: rgb(204, 204, 204);
+}
+::-webkit-input-placeholder { text-align:right; }
+.line{
+    margin-left: 3%;
+    margin-right: 3%;
+    border: .5px solid;
+    margin-top: 5%;
+    
+}
+.letter{
+    font-weight: bold;
+    font-size: x-large;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.letter1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    
+}
+.input1{
+    background-color: rgb(231, 231, 231);
+    padding: 30px 10px;
+    border-radius: 5%;
+    width: 100%;
+    border: none;
+    
+    
+}
+.btn{
+    background-color: rgb(120, 197, 211);
+    padding: 20px 10px;
+    border-radius: 5%;
+    width: 100%;
+    border: none;
+    
+}
+h5{
+    text-align: center;
+    color: rgb(201, 201, 201);
+    margin-top: 10px;
+}
+.i1{
+    margin-bottom: 5%;
+}
+.i3{
+    margin-top: 5%;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+}
+input[type=text]:focus,
+ input[type=tel]:focus,
+  input[type=email]:focus, 
+  input[type=number]:focus,
+  select:focus, textarea:focus {
+    background-color: rgb(221, 198, 224);
+    color: rgb(17, 16, 16);
+    transition: background-color 500ms linear;
+    
+  }
+@media screen and (min-width: 768px){
+    main{
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    .box{
+        flex-direction: row;
+        
+    }
+    .flex1 input,
+    .flex1 select
+    {
+        flex-grow: 1;
+        
+    }
+    
+    
+    .flex1 label {
+        flex-basis: 30%;
+        
+        }
+        
+   
+    form input {
+        margin: 5px;
+    }
+    form label{
+        margin-top: 15px;
+    }
+    .state{
+        margin:5px
+    }
+    .zip{
+        max-width: 25%;
+        
+    }
+    
+    
+    }
+    
+    
+    
+    
+
+

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+    <title>Online Registration form</title>
+</head>
+<body>
+    <header class="head">
+        THE CODE REVIEW
+    </header>
+    <main>
+        <h3>Signup for our newsletter</h3>
+        <p>Get the latest news on how your code is doing right in your inbox</p>
+        <hr id="border">
+        <form action="index.html" method="post">
+            <fieldset class="flex1">
+                <legend class="contact ">Contact Information</legend>
+                <div class="box">
+                    <label for="name">Full Name</label><br>
+                    <input class="input" type="text" id="name" name="user_name" placeholder="Required" required="Required"><br>
+                </div>
+                <div class="box">
+                    <label for="email">Email Address</label><br>
+                    <input class="input" type="email" id="email" name="user_email" placeholder="Required" required="Required"><br>
+                </div>
+                <div class="box">
+                    <label for="phone">Phone Number</label><br>
+                    <input class="input" type="tel" id="phone" name="user_phone" placeholder="Optional"><br>
+                </div>
+                <div class="box">
+                    <label for="address">Street Address</label><br>
+                    <input class="input" type="text" id="address" name="user_address"><br>
+                </div>
+                <div class="box">
+                    <label for="city">City</label><br>
+                    <input class="input" type="text" id="city" name="user_city"><br>
+                </div>
+                <div class="box" >
+                    <label for="state">State</label><br> 
+                    <select class="input state" name="user_state" id="state">
+                        <option value="" disabled selected>Choose State</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware">Delaware</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisiana">Louisiana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Massachusetts">Massachusetts</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montana">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="new_hampshire">New Hampshire</option>
+                        <option value="new_jersey">New Jersey</option>
+                        <option value="new_mexico">New Mexico</option>
+                        <option value="new_york">New York</option>
+                        <option value="north_carolina">North Carolina</option>
+                        <option value="north_dakota">North Dakota</option>
+                        <option value="ohio">Ohio</option>
+                        <option value="oklahoma">Oklahoma</option>
+                        <option value="oregon">Oregon</option>
+                        <option value="pennsylvania">Pennsylvania</option>
+                        <option value="rhode_island">Rhode Island</option>
+                        <option value="south_carolina">South Carolina</option>
+                        <option value="south_dakota">South Dakota</option>
+                        <option value="tennessee">Tennessee</option>
+                        <option value="texas">Texas</option>
+                        <option value="utah">Utah</option>
+                        <option value="vermont">Vermont</option>
+                        <option value="virginia">Virginia</option>
+                        <option value="washington">Washington</option>
+                        <option value="west_virginia">West Virginia</option>
+                        <option value="wisconsin">Wisonsin</option>
+                        <option value="wyoming">Wyoming</option>
+                    </select><br>
+                </div>
+                <div class="box">
+                    <label class= "zip1" for="zip">Zip Code</label>
+                    <input class="zip input" type="text" id="zip" name="user_zip">
+                </div>
+            </fieldset>
+            <hr class="line">
+            <fieldset class="flex2">
+                <legend class="letter">Newsletter</legend>
+                <label>Select the newletter you would like to recieve</label><br>
+                <div>
+                    <input class="i1" type="checkbox" name="user_newsletter" id="html" value="html_news"><label for="html">HTML News</label><br>
+                    <input type="checkbox" name="user_newsletter" id="css" value="css_news"><label for="css">CSS News</label><br>
+                    <input class="i3" type="checkbox" name="user_newsletter" id="JS" value="JS_news"><label for="JS">JAVASCRIPT News</label><br>
+                </div>
+                <label class="i3">Newsletter format</label><br>
+                <div >
+                <input class="i1" type="radio" name="user_format" id="html-format" value="html_format"><label for="html-format">HTML</label><br>
+                <input class="i1" type="radio" name="user_format" id="plain" value="plain_format"><label for="plain">Plain Text</label><br>
+                </div>
+                <label  class="i3" for="area">Other topics you'd like to hear about</label><br>
+                <textarea class="input1" name="topic" id="area"></textarea><br>
+                
+                <button class="btn" type="submit">Sign Up</button>
+            </fieldset>
+
+        </form>
+    </main>
+    <footer>
+        <h5>Copyright The Code Review</h5>
+    </footer>
+    
+</body>
+</html>
